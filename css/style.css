@@ -1,0 +1,39 @@
+body {
+    padding: 0%;
+    margin: 0%;
+}
+.waves {
+    padding: 200px;
+    text-align: center;
+}
+  
+section {
+    width: 100%;
+    min-height: 500px;
+}
+  
+.pattern {
+    position: relative;
+    background-color: blue;
+    background-image: linear-gradient(315deg,
+                    blue 0%, lightblue 85%);
+}
+  
+.pattern:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 215px;
+    background-image: url(../images/wave3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.left{
+    padding: 1% 5%;
+}
+.right{
+    text-align: right;
+    padding: 1% 5%;
+}
