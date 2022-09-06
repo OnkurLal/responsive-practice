@@ -14,9 +14,9 @@ section {
   
 .pattern {
     position: relative;
-    background-color: blue;
+    background-color: red;
     background-image: linear-gradient(315deg,
-                    blue 0%, lightblue 85%);
+                    red 0%, orange 85%);
 }
   
 .pattern:before {
